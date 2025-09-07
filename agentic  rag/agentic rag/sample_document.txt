@@ -1,0 +1,9 @@
+LangGraph is a powerful library for building stateful, multi-agent applications using Large Language Models (LLMs). It extends the LangChain Expression Language (LCEL) by introducing the ability to coordinate multiple chains or actors across several computational steps in a cyclical, graph-based manner.
+
+The primary capabilities of LangGraph include:
+1.  State Management: It allows for the definition of a central state object that can be modified by various nodes within the graph.
+2.  Node-Based Architecture: Logic is encapsulated in discrete, runnable functions called nodes.
+3.  Conditional Edges: This feature enables dynamic routing, allowing the execution path to change based on the output of a node. This is the key to building agentic behaviors like loops and self-correction.
+4.  Persistence: The state of the graph can be saved and resumed, which is essential for handling long-running tasks and ensuring fault tolerance.
+
+In essence, LangGraph is specifically designed to create robust and reliable AI agents that can reason about a problem, formulate a plan, and correct their course when they fail.
